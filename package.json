@@ -1,0 +1,38 @@
+{
+  "name": "bike-development-calc",
+  "version": "0.5.0",
+  "description": "Calculate various statistics for bike gearing",
+  "author": {
+    "name": "jsyang.ca@gmail.com",
+    "url": "http://jsyang.ca"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsyang/bike-development-calc.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.37",
+    "@types/react": "^16.0.10",
+    "@types/react-dom": "^16.0.1",
+    "@types/webpack-env": "^1.13.1",
+    "aphrodite": "^1.2.4",
+    "awesome-typescript-loader": "^3.2.3",
+    "express": "^4.15.3",
+    "preact": "^8.1.0",
+    "preact-compat": "^3.16.0",
+    "preact-router": "^2.5.7",
+    "react-animated-number": "^0.4.3",
+    "typescript": "^2.5.3",
+    "webpack": "^3.0.0",
+    "webpack-config-assign": "^1.0.0",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-hot-middleware": "^2.18.0",
+    "webpack-shell-plugin": "^0.5.0",
+    "yarn": "^1.1.0"
+  }
+}
